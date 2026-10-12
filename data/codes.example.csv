@@ -1,0 +1,10 @@
+domain,device,brand,code,meaning,official_action,hazard,source_url,verified
+appliance,washing machine,LG,UE,Load is unbalanced,Pause the cycle and redistribute the laundry evenly then restart,none,,false
+appliance,washing machine,LG,OE,Water is not draining,Check the drain hose for kinks and clean the drain pump filter,water,,false
+appliance,washing machine,LG,IE,Water is not filling,Check the tap is open and the inlet hose and its filter are not blocked,none,,false
+appliance,washing machine,Samsung,4C,Water is not filling,Check the tap is open and the water supply hose is not kinked or clogged,none,,false
+appliance,washing machine,Samsung,5C,Water is not draining,Check the drain hose and clean the debris filter,water,,false
+appliance,washing machine,Samsung,UB,Load is unbalanced,Redistribute the laundry evenly and restart the spin,none,,false
+vehicle,car,,P0300,Random or multiple cylinder misfire detected,Have the ignition and fuel systems diagnosed and avoid hard driving while the engine light flashes,mechanical,,false
+vehicle,car,,P0420,Catalyst system efficiency below threshold (bank 1),Have the catalytic converter and oxygen sensors inspected,mechanical,,false
+vehicle,car,,P0171,System too lean (bank 1),Have the intake checked for vacuum leaks and the fuel delivery tested,mechanical,,false

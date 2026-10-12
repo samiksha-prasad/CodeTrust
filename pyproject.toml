@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "e21"
+version = "0.1.0"
+description = "What Does E21 Mean? Measuring and fixing LLM fabrication on everyday error codes."
+requires-python = ">=3.10"
+dependencies = ["anthropic", "openai", "pydantic>=2"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+e21 = "e21.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
